@@ -1,0 +1,11 @@
+{
+  "main": "../../bundles/ng-zorro-antd-core-outlet.umd.js",
+  "module": "../../fesm2015/ng-zorro-antd-core-outlet.js",
+  "es2015": "../../fesm2015/ng-zorro-antd-core-outlet.js",
+  "esm2015": "../../esm2015/core/outlet/ng-zorro-antd-core-outlet.js",
+  "fesm2015": "../../fesm2015/ng-zorro-antd-core-outlet.js",
+  "typings": "ng-zorro-antd-core-outlet.d.ts",
+  "metadata": "ng-zorro-antd-core-outlet.metadata.json",
+  "sideEffects": false,
+  "name": "ng-zorro-antd/core/outlet"
+}

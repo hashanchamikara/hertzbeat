@@ -1,0 +1,11 @@
+{
+  "main": "../../bundles/ng-zorro-antd-core-services.umd.js",
+  "module": "../../fesm2015/ng-zorro-antd-core-services.js",
+  "es2015": "../../fesm2015/ng-zorro-antd-core-services.js",
+  "esm2015": "../../esm2015/core/services/ng-zorro-antd-core-services.js",
+  "fesm2015": "../../fesm2015/ng-zorro-antd-core-services.js",
+  "typings": "ng-zorro-antd-core-services.d.ts",
+  "metadata": "ng-zorro-antd-core-services.metadata.json",
+  "sideEffects": false,
+  "name": "ng-zorro-antd/core/services"
+}

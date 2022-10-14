@@ -1,0 +1,11 @@
+{
+  "main": "../bundles/ng-zorro-antd-tree-view.umd.js",
+  "module": "../fesm2015/ng-zorro-antd-tree-view.js",
+  "es2015": "../fesm2015/ng-zorro-antd-tree-view.js",
+  "esm2015": "../esm2015/tree-view/ng-zorro-antd-tree-view.js",
+  "fesm2015": "../fesm2015/ng-zorro-antd-tree-view.js",
+  "typings": "ng-zorro-antd-tree-view.d.ts",
+  "metadata": "ng-zorro-antd-tree-view.metadata.json",
+  "sideEffects": false,
+  "name": "ng-zorro-antd/tree-view"
+}

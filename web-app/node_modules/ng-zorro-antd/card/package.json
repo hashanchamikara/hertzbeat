@@ -1,0 +1,11 @@
+{
+  "main": "../bundles/ng-zorro-antd-card.umd.js",
+  "module": "../fesm2015/ng-zorro-antd-card.js",
+  "es2015": "../fesm2015/ng-zorro-antd-card.js",
+  "esm2015": "../esm2015/card/ng-zorro-antd-card.js",
+  "fesm2015": "../fesm2015/ng-zorro-antd-card.js",
+  "typings": "ng-zorro-antd-card.d.ts",
+  "metadata": "ng-zorro-antd-card.metadata.json",
+  "sideEffects": false,
+  "name": "ng-zorro-antd/card"
+}

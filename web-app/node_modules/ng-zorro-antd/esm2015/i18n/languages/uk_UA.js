@@ -1,0 +1,145 @@
+/**
+ * Use of this source code is governed by an MIT-style license that can be
+ * found in the LICENSE file at https://github.com/NG-ZORRO/ng-zorro-antd/blob/master/LICENSE
+ */
+export default {
+    locale: 'uk',
+    Pagination: {
+        items_per_page: '/ сторінці',
+        jump_to: 'Перейти',
+        jump_to_confirm: 'підтвердити',
+        page: '',
+        prev_page: 'Попередня сторінка',
+        next_page: 'Наступна сторінка',
+        prev_5: 'Попередні 5 сторінок',
+        next_5: 'Наступні 5 сторінок',
+        prev_3: 'Попередні 3 сторінки',
+        next_3: 'Наступні 3 сторінки'
+    },
+    DatePicker: {
+        lang: {
+            placeholder: 'Оберіть дату',
+            yearPlaceholder: 'Оберіть рік',
+            quarterPlaceholder: 'Оберіть квартал',
+            monthPlaceholder: 'Оберіть місяць',
+            weekPlaceholder: 'Оберіть тиждень',
+            rangePlaceholder: ['Початкова дата', 'Кінцева дата'],
+            rangeYearPlaceholder: ['Початковий рік', 'Рік закінчення'],
+            rangeMonthPlaceholder: ['Початковий місяць', 'Кінцевий місяць'],
+            rangeWeekPlaceholder: ['Початковий тиждень', 'Кінцевий тиждень'],
+            locale: 'uk_UA',
+            today: 'Сьогодні',
+            now: 'Зараз',
+            backToToday: 'Поточна дата',
+            ok: 'Ok',
+            clear: 'Очистити',
+            month: 'Місяць',
+            year: 'Рік',
+            timeSelect: 'Обрати час',
+            dateSelect: 'Обрати дату',
+            monthSelect: 'Обрати місяць',
+            yearSelect: 'Обрати рік',
+            decadeSelect: 'Обрати десятиріччя',
+            yearFormat: 'YYYY',
+            dateFormat: 'D-M-YYYY',
+            dayFormat: 'D',
+            dateTimeFormat: 'D-M-YYYY HH:mm:ss',
+            monthBeforeYear: true,
+            previousMonth: 'Попередній місяць (PageUp)',
+            nextMonth: 'Наступний місяць (PageDown)',
+            previousYear: 'Попередній рік (Control + left)',
+            nextYear: 'Наступний рік (Control + right)',
+            previousDecade: 'Попереднє десятиріччя',
+            nextDecade: 'Наступне десятиріччя',
+            previousCentury: 'Попереднє століття',
+            nextCentury: 'Наступне століття'
+        },
+        timePickerLocale: {
+            placeholder: 'Оберіть час',
+            rangePlaceholder: ['Час початку', 'Час закінчення']
+        }
+    },
+    TimePicker: {
+        placeholder: 'Оберіть час',
+        rangePlaceholder: ['Час початку', 'Час закінчення']
+    },
+    Calendar: {
+        lang: {
+            placeholder: 'Оберіть дату',
+            rangePlaceholder: ['Початкова дата', 'Кінцева дата'],
+            locale: 'uk_UA',
+            today: 'Сьогодні',
+            now: 'Зараз',
+            backToToday: 'Поточна дата',
+            ok: 'Ok',
+            clear: 'Очистити',
+            month: 'Місяць',
+            year: 'Рік',
+            timeSelect: 'Обрати час',
+            dateSelect: 'Обрати дату',
+            monthSelect: 'Обрати місяць',
+            yearSelect: 'Обрати рік',
+            decadeSelect: 'Обрати десятиріччя',
+            yearFormat: 'YYYY',
+            dateFormat: 'D-M-YYYY',
+            dayFormat: 'D',
+            dateTimeFormat: 'D-M-YYYY HH:mm:ss',
+            monthBeforeYear: true,
+            previousMonth: 'Попередній місяць (PageUp)',
+            nextMonth: 'Наступний місяць (PageDown)',
+            previousYear: 'Попередній рік (Control + left)',
+            nextYear: 'Наступний рік (Control + right)',
+            previousDecade: 'Попереднє десятиріччя',
+            nextDecade: 'Наступне десятиріччя',
+            previousCentury: 'Попереднє століття',
+            nextCentury: 'Наступне століття'
+        },
+        timePickerLocale: {
+            placeholder: 'Оберіть час'
+        }
+    },
+    Table: {
+        filterTitle: 'Фільтрувати',
+        filterConfirm: 'OK',
+        filterReset: 'Скинути',
+        selectAll: 'Обрати всі',
+        selectInvert: 'Інвертувати вибір'
+    },
+    Modal: {
+        okText: 'Гаразд',
+        cancelText: 'Скасувати',
+        justOkText: 'Гаразд'
+    },
+    Popconfirm: {
+        okText: 'Гаразд',
+        cancelText: 'Скасувати'
+    },
+    Transfer: {
+        searchPlaceholder: 'Введіть текст для пошуку',
+        itemUnit: 'елем.',
+        itemsUnit: 'елем.'
+    },
+    Upload: {
+        uploading: 'Завантаження ...',
+        removeFile: 'Видалити файл',
+        uploadError: 'Помилка завантаження',
+        previewFile: 'Попередній перегляд файлу',
+        downloadFile: 'Завантажити файл'
+    },
+    Empty: {
+        description: 'Даних немає'
+    },
+    Icon: {
+        icon: 'іконка'
+    },
+    Text: {
+        edit: 'Редагувати',
+        copy: 'Копіювати',
+        copied: 'Скопійовано',
+        expand: 'Розгорнути'
+    },
+    PageHeader: {
+        back: 'Назад'
+    }
+};
+//# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJmaWxlIjoidWtfVUEuanMiLCJzb3VyY2VSb290IjoiIiwic291cmNlcyI6WyIuLi8uLi8uLi8uLi9jb21wb25lbnRzL2kxOG4vbGFuZ3VhZ2VzL3VrX1VBLnRzIl0sIm5hbWVzIjpbXSwibWFwcGluZ3MiOiJBQUFBOzs7R0FHRztBQUVILGVBQWU7SUFDYixNQUFNLEVBQUUsSUFBSTtJQUNaLFVBQVUsRUFBRTtRQUNWLGNBQWMsRUFBRSxZQUFZO1FBQzVCLE9BQU8sRUFBRSxTQUFTO1FBQ2xCLGVBQWUsRUFBRSxhQUFhO1FBQzlCLElBQUksRUFBRSxFQUFFO1FBQ1IsU0FBUyxFQUFFLG9CQUFvQjtRQUMvQixTQUFTLEVBQUUsbUJBQW1CO1FBQzlCLE1BQU0sRUFBRSxzQkFBc0I7UUFDOUIsTUFBTSxFQUFFLHFCQUFxQjtRQUM3QixNQUFNLEVBQUUsc0JBQXNCO1FBQzlCLE1BQU0sRUFBRSxxQkFBcUI7S0FDOUI7SUFDRCxVQUFVLEVBQUU7UUFDVixJQUFJLEVBQUU7WUFDSixXQUFXLEVBQUUsY0FBYztZQUMzQixlQUFlLEVBQUUsYUFBYTtZQUM5QixrQkFBa0IsRUFBRSxpQkFBaUI7WUFDckMsZ0JBQWdCLEVBQUUsZ0JBQWdCO1lBQ2xDLGVBQWUsRUFBRSxpQkFBaUI7WUFDbEMsZ0JBQWdCLEVBQUUsQ0FBQyxnQkFBZ0IsRUFBRSxjQUFjLENBQUM7WUFDcEQsb0JBQW9CLEVBQUUsQ0FBQyxnQkFBZ0IsRUFBRSxnQkFBZ0IsQ0FBQztZQUMxRCxxQkFBcUIsRUFBRSxDQUFDLG1CQUFtQixFQUFFLGlCQUFpQixDQUFDO1lBQy9ELG9CQUFvQixFQUFFLENBQUMsb0JBQW9CLEVBQUUsa0JBQWtCLENBQUM7WUFDaEUsTUFBTSxFQUFFLE9BQU87WUFDZixLQUFLLEVBQUUsVUFBVTtZQUNqQixHQUFHLEVBQUUsT0FBTztZQUNaLFdBQVcsRUFBRSxjQUFjO1lBQzNCLEVBQUUsRUFBRSxJQUFJO1lBQ1IsS0FBSyxFQUFFLFVBQVU7WUFDakIsS0FBSyxFQUFFLFFBQVE7WUFDZixJQUFJLEVBQUUsS0FBSztZQUNYLFVBQVUsRUFBRSxZQUFZO1lBQ3hCLFVBQVUsRUFBRSxhQUFhO1lBQ3pCLFdBQVcsRUFBRSxlQUFlO1lBQzVCLFVBQVUsRUFBRSxZQUFZO1lBQ3hCLFlBQVksRUFBRSxvQkFBb0I7WUFDbEMsVUFBVSxFQUFFLE1BQU07WUFDbEIsVUFBVSxFQUFFLFVBQVU7WUFDdEIsU0FBUyxFQUFFLEdBQUc7WUFDZCxjQUFjLEVBQUUsbUJBQW1CO1lBQ25DLGVBQWUsRUFBRSxJQUFJO1lBQ3JCLGFBQWEsRUFBRSw0QkFBNEI7WUFDM0MsU0FBUyxFQUFFLDZCQUE2QjtZQUN4QyxZQUFZLEVBQUUsaUNBQWlDO1lBQy9DLFFBQVEsRUFBRSxpQ0FBaUM7WUFDM0MsY0FBYyxFQUFFLHVCQUF1QjtZQUN2QyxVQUFVLEVBQUUsc0JBQXNCO1lBQ2xDLGVBQWUsRUFBRSxvQkFBb0I7WUFDckMsV0FBVyxFQUFFLG1CQUFtQjtTQUNqQztRQUNELGdCQUFnQixFQUFFO1lBQ2hCLFdBQVcsRUFBRSxhQUFhO1lBQzFCLGdCQUFnQixFQUFFLENBQUMsYUFBYSxFQUFFLGdCQUFnQixDQUFDO1NBQ3BEO0tBQ0Y7SUFDRCxVQUFVLEVBQUU7UUFDVixXQUFXLEVBQUUsYUFBYTtRQUMxQixnQkFBZ0IsRUFBRSxDQUFDLGFBQWEsRUFBRSxnQkFBZ0IsQ0FBQztLQUNwRDtJQUNELFFBQVEsRUFBRTtRQUNSLElBQUksRUFBRTtZQUNKLFdBQVcsRUFBRSxjQUFjO1lBQzNCLGdCQUFnQixFQUFFLENBQUMsZ0JBQWdCLEVBQUUsY0FBYyxDQUFDO1lBQ3BELE1BQU0sRUFBRSxPQUFPO1lBQ2YsS0FBSyxFQUFFLFVBQVU7WUFDakIsR0FBRyxFQUFFLE9BQU87WUFDWixXQUFXLEVBQUUsY0FBYztZQUMzQixFQUFFLEVBQUUsSUFBSTtZQUNSLEtBQUssRUFBRSxVQUFVO1lBQ2pCLEtBQUssRUFBRSxRQUFRO1lBQ2YsSUFBSSxFQUFFLEtBQUs7WUFDWCxVQUFVLEVBQUUsWUFBWTtZQUN4QixVQUFVLEVBQUUsYUFBYTtZQUN6QixXQUFXLEVBQUUsZUFBZTtZQUM1QixVQUFVLEVBQUUsWUFBWTtZQUN4QixZQUFZLEVBQUUsb0JBQW9CO1lBQ2xDLFVBQVUsRUFBRSxNQUFNO1lBQ2xCLFVBQVUsRUFBRSxVQUFVO1lBQ3RCLFNBQVMsRUFBRSxHQUFHO1lBQ2QsY0FBYyxFQUFFLG1CQUFtQjtZQUNuQyxlQUFlLEVBQUUsSUFBSTtZQUNyQixhQUFhLEVBQUUsNEJBQTRCO1lBQzNDLFNBQVMsRUFBRSw2QkFBNkI7WUFDeEMsWUFBWSxFQUFFLGlDQUFpQztZQUMvQyxRQUFRLEVBQUUsaUNBQWlDO1lBQzNDLGNBQWMsRUFBRSx1QkFBdUI7WUFDdkMsVUFBVSxFQUFFLHNCQUFzQjtZQUNsQyxlQUFlLEVBQUUsb0JBQW9CO1lBQ3JDLFdBQVcsRUFBRSxtQkFBbUI7U0FDakM7UUFDRCxnQkFBZ0IsRUFBRTtZQUNoQixXQUFXLEVBQUUsYUFBYTtTQUMzQjtLQUNGO0lBQ0QsS0FBSyxFQUFFO1FBQ0wsV0FBVyxFQUFFLGFBQWE7UUFDMUIsYUFBYSxFQUFFLElBQUk7UUFDbkIsV0FBVyxFQUFFLFNBQVM7UUFDdEIsU0FBUyxFQUFFLFlBQVk7UUFDdkIsWUFBWSxFQUFFLG1CQUFtQjtLQUNsQztJQUNELEtBQUssRUFBRTtRQUNMLE1BQU0sRUFBRSxRQUFRO1FBQ2hCLFVBQVUsRUFBRSxXQUFXO1FBQ3ZCLFVBQVUsRUFBRSxRQUFRO0tBQ3JCO0lBQ0QsVUFBVSxFQUFFO1FBQ1YsTUFBTSxFQUFFLFFBQVE7UUFDaEIsVUFBVSxFQUFFLFdBQVc7S0FDeEI7SUFDRCxRQUFRLEVBQUU7UUFDUixpQkFBaUIsRUFBRSwwQkFBMEI7UUFDN0MsUUFBUSxFQUFFLE9BQU87UUFDakIsU0FBUyxFQUFFLE9BQU87S0FDbkI7SUFDRCxNQUFNLEVBQUU7UUFDTixTQUFTLEVBQUUsa0JBQWtCO1FBQzdCLFVBQVUsRUFBRSxlQUFlO1FBQzNCLFdBQVcsRUFBRSxzQkFBc0I7UUFDbkMsV0FBVyxFQUFFLDJCQUEyQjtRQUN4QyxZQUFZLEVBQUUsa0JBQWtCO0tBQ2pDO0lBQ0QsS0FBSyxFQUFFO1FBQ0wsV0FBVyxFQUFFLGFBQWE7S0FDM0I7SUFDRCxJQUFJLEVBQUU7UUFDSixJQUFJLEVBQUUsUUFBUTtLQUNmO0lBQ0QsSUFBSSxFQUFFO1FBQ0osSUFBSSxFQUFFLFlBQVk7UUFDbEIsSUFBSSxFQUFFLFdBQVc7UUFDakIsTUFBTSxFQUFFLGFBQWE7UUFDckIsTUFBTSxFQUFFLFlBQVk7S0FDckI7SUFDRCxVQUFVLEVBQUU7UUFDVixJQUFJLEVBQUUsT0FBTztLQUNkO0NBQ0YsQ0FBQyIsInNvdXJjZXNDb250ZW50IjpbIi8qKlxuICogVXNlIG9mIHRoaXMgc291cmNlIGNvZGUgaXMgZ292ZXJuZWQgYnkgYW4gTUlULXN0eWxlIGxpY2Vuc2UgdGhhdCBjYW4gYmVcbiAqIGZvdW5kIGluIHRoZSBMSUNFTlNFIGZpbGUgYXQgaHR0cHM6Ly9naXRodWIuY29tL05HLVpPUlJPL25nLXpvcnJvLWFudGQvYmxvYi9tYXN0ZXIvTElDRU5TRVxuICovXG5cbmV4cG9ydCBkZWZhdWx0IHtcbiAgbG9jYWxlOiAndWsnLFxuICBQYWdpbmF0aW9uOiB7XG4gICAgaXRlbXNfcGVyX3BhZ2U6ICcvINGB0YLQvtGA0ZbQvdGG0ZYnLFxuICAgIGp1bXBfdG86ICfQn9C10YDQtdC50YLQuCcsXG4gICAganVtcF90b19jb25maXJtOiAn0L/RltC00YLQstC10YDQtNC40YLQuCcsXG4gICAgcGFnZTogJycsXG4gICAgcHJldl9wYWdlOiAn0J/QvtC/0LXRgNC10LTQvdGPINGB0YLQvtGA0ZbQvdC60LAnLFxuICAgIG5leHRfcGFnZTogJ9Cd0LDRgdGC0YPQv9C90LAg0YHRgtC+0YDRltC90LrQsCcsXG4gICAgcHJldl81OiAn0J/QvtC/0LXRgNC10LTQvdGWIDUg0YHRgtC+0YDRltC90L7QuicsXG4gICAgbmV4dF81OiAn0J3QsNGB0YLRg9C/0L3RliA1INGB0YLQvtGA0ZbQvdC+0LonLFxuICAgIHByZXZfMzogJ9Cf0L7Qv9C10YDQtdC00L3RliAzINGB0YLQvtGA0ZbQvdC60LgnLFxuICAgIG5leHRfMzogJ9Cd0LDRgdGC0YPQv9C90ZYgMyDRgdGC0L7RgNGW0L3QutC4J1xuICB9LFxuICBEYXRlUGlja2VyOiB7XG4gICAgbGFuZzoge1xuICAgICAgcGxhY2Vob2xkZXI6ICfQntCx0LXRgNGW0YLRjCDQtNCw0YLRgycsXG4gICAgICB5ZWFyUGxhY2Vob2xkZXI6ICfQntCx0LXRgNGW0YLRjCDRgNGW0LonLFxuICAgICAgcXVhcnRlclBsYWNlaG9sZGVyOiAn0J7QsdC10YDRltGC0Ywg0LrQstCw0YDRgtCw0LsnLFxuICAgICAgbW9udGhQbGFjZWhvbGRlcjogJ9Ce0LHQtdGA0ZbRgtGMINC80ZbRgdGP0YbRjCcsXG4gICAgICB3ZWVrUGxhY2Vob2xkZXI6ICfQntCx0LXRgNGW0YLRjCDRgtC40LbQtNC10L3RjCcsXG4gICAgICByYW5nZVBsYWNlaG9sZGVyOiBbJ9Cf0L7Rh9Cw0YLQutC+0LLQsCDQtNCw0YLQsCcsICfQmtGW0L3RhtC10LLQsCDQtNCw0YLQsCddLFxuICAgICAgcmFuZ2VZZWFyUGxhY2Vob2xkZXI6IFsn0J/QvtGH0LDRgtC60L7QstC40Lkg0YDRltC6JywgJ9Cg0ZbQuiDQt9Cw0LrRltC90YfQtdC90L3RjyddLFxuICAgICAgcmFuZ2VNb250aFBsYWNlaG9sZGVyOiBbJ9Cf0L7Rh9Cw0YLQutC+0LLQuNC5INC80ZbRgdGP0YbRjCcsICfQmtGW0L3RhtC10LLQuNC5INC80ZbRgdGP0YbRjCddLFxuICAgICAgcmFuZ2VXZWVrUGxhY2Vob2xkZXI6IFsn0J/QvtGH0LDRgtC60L7QstC40Lkg0YLQuNC20LTQtdC90YwnLCAn0JrRltC90YbQtdCy0LjQuSDRgtC40LbQtNC10L3RjCddLFxuICAgICAgbG9jYWxlOiAndWtfVUEnLFxuICAgICAgdG9kYXk6ICfQodGM0L7Qs9C+0LTQvdGWJyxcbiAgICAgIG5vdzogJ9CX0LDRgNCw0LcnLFxuICAgICAgYmFja1RvVG9kYXk6ICfQn9C+0YLQvtGH0L3QsCDQtNCw0YLQsCcsXG4gICAgICBvazogJ09rJyxcbiAgICAgIGNsZWFyOiAn0J7Rh9C40YHRgtC40YLQuCcsXG4gICAgICBtb250aDogJ9Cc0ZbRgdGP0YbRjCcsXG4gICAgICB5ZWFyOiAn0KDRltC6JyxcbiAgICAgIHRpbWVTZWxlY3Q6ICfQntCx0YDQsNGC0Lgg0YfQsNGBJyxcbiAgICAgIGRhdGVTZWxlY3Q6ICfQntCx0YDQsNGC0Lgg0LTQsNGC0YMnLFxuICAgICAgbW9udGhTZWxlY3Q6ICfQntCx0YDQsNGC0Lgg0LzRltGB0Y/RhtGMJyxcbiAgICAgIHllYXJTZWxlY3Q6ICfQntCx0YDQsNGC0Lgg0YDRltC6JyxcbiAgICAgIGRlY2FkZVNlbGVjdDogJ9Ce0LHRgNCw0YLQuCDQtNC10YHRj9GC0LjRgNGW0YfRh9GPJyxcbiAgICAgIHllYXJGb3JtYXQ6ICdZWVlZJyxcbiAgICAgIGRhdGVGb3JtYXQ6ICdELU0tWVlZWScsXG4gICAgICBkYXlGb3JtYXQ6ICdEJyxcbiAgICAgIGRhdGVUaW1lRm9ybWF0OiAnRC1NLVlZWVkgSEg6bW06c3MnLFxuICAgICAgbW9udGhCZWZvcmVZZWFyOiB0cnVlLFxuICAgICAgcHJldmlvdXNNb250aDogJ9Cf0L7Qv9C10YDQtdC00L3RltC5INC80ZbRgdGP0YbRjCAoUGFnZVVwKScsXG4gICAgICBuZXh0TW9udGg6ICfQndCw0YHRgtGD0L/QvdC40Lkg0LzRltGB0Y/RhtGMIChQYWdlRG93biknLFxuICAgICAgcHJldmlvdXNZZWFyOiAn0J/QvtC/0LXRgNC10LTQvdGW0Lkg0YDRltC6IChDb250cm9sICsgbGVmdCknLFxuICAgICAgbmV4dFllYXI6ICfQndCw0YHRgtGD0L/QvdC40Lkg0YDRltC6IChDb250cm9sICsgcmlnaHQpJyxcbiAgICAgIHByZXZpb3VzRGVjYWRlOiAn0J/QvtC/0LXRgNC10LTQvdGUINC00LXRgdGP0YLQuNGA0ZbRh9GH0Y8nLFxuICAgICAgbmV4dERlY2FkZTogJ9Cd0LDRgdGC0YPQv9C90LUg0LTQtdGB0Y/RgtC40YDRltGH0YfRjycsXG4gICAgICBwcmV2aW91c0NlbnR1cnk6ICfQn9C+0L/QtdGA0LXQtNC90ZQg0YHRgtC+0LvRltGC0YLRjycsXG4gICAgICBuZXh0Q2VudHVyeTogJ9Cd0LDRgdGC0YPQv9C90LUg0YHRgtC+0LvRltGC0YLRjydcbiAgICB9LFxuICAgIHRpbWVQaWNrZXJMb2NhbGU6IHtcbiAgICAgIHBsYWNlaG9sZGVyOiAn0J7QsdC10YDRltGC0Ywg0YfQsNGBJyxcbiAgICAgIHJhbmdlUGxhY2Vob2xkZXI6IFsn0KfQsNGBINC/0L7Rh9Cw0YLQutGDJywgJ9Cn0LDRgSDQt9Cw0LrRltC90YfQtdC90L3RjyddXG4gICAgfVxuICB9LFxuICBUaW1lUGlja2VyOiB7XG4gICAgcGxhY2Vob2xkZXI6ICfQntCx0LXRgNGW0YLRjCDRh9Cw0YEnLFxuICAgIHJhbmdlUGxhY2Vob2xkZXI6IFsn0KfQsNGBINC/0L7Rh9Cw0YLQutGDJywgJ9Cn0LDRgSDQt9Cw0LrRltC90YfQtdC90L3RjyddXG4gIH0sXG4gIENhbGVuZGFyOiB7XG4gICAgbGFuZzoge1xuICAgICAgcGxhY2Vob2xkZXI6ICfQntCx0LXRgNGW0YLRjCDQtNCw0YLRgycsXG4gICAgICByYW5nZVBsYWNlaG9sZGVyOiBbJ9Cf0L7Rh9Cw0YLQutC+0LLQsCDQtNCw0YLQsCcsICfQmtGW0L3RhtC10LLQsCDQtNCw0YLQsCddLFxuICAgICAgbG9jYWxlOiAndWtfVUEnLFxuICAgICAgdG9kYXk6ICfQodGM0L7Qs9C+0LTQvdGWJyxcbiAgICAgIG5vdzogJ9CX0LDRgNCw0LcnLFxuICAgICAgYmFja1RvVG9kYXk6ICfQn9C+0YLQvtGH0L3QsCDQtNCw0YLQsCcsXG4gICAgICBvazogJ09rJyxcbiAgICAgIGNsZWFyOiAn0J7Rh9C40YHRgtC40YLQuCcsXG4gICAgICBtb250aDogJ9Cc0ZbRgdGP0YbRjCcsXG4gICAgICB5ZWFyOiAn0KDRltC6JyxcbiAgICAgIHRpbWVTZWxlY3Q6ICfQntCx0YDQsNGC0Lgg0YfQsNGBJyxcbiAgICAgIGRhdGVTZWxlY3Q6ICfQntCx0YDQsNGC0Lgg0LTQsNGC0YMnLFxuICAgICAgbW9udGhTZWxlY3Q6ICfQntCx0YDQsNGC0Lgg0LzRltGB0Y/RhtGMJyxcbiAgICAgIHllYXJTZWxlY3Q6ICfQntCx0YDQsNGC0Lgg0YDRltC6JyxcbiAgICAgIGRlY2FkZVNlbGVjdDogJ9Ce0LHRgNCw0YLQuCDQtNC10YHRj9GC0LjRgNGW0YfRh9GPJyxcbiAgICAgIHllYXJGb3JtYXQ6ICdZWVlZJyxcbiAgICAgIGRhdGVGb3JtYXQ6ICdELU0tWVlZWScsXG4gICAgICBkYXlGb3JtYXQ6ICdEJyxcbiAgICAgIGRhdGVUaW1lRm9ybWF0OiAnRC1NLVlZWVkgSEg6bW06c3MnLFxuICAgICAgbW9udGhCZWZvcmVZZWFyOiB0cnVlLFxuICAgICAgcHJldmlvdXNNb250aDogJ9Cf0L7Qv9C10YDQtdC00L3RltC5INC80ZbRgdGP0YbRjCAoUGFnZVVwKScsXG4gICAgICBuZXh0TW9udGg6ICfQndCw0YHRgtGD0L/QvdC40Lkg0LzRltGB0Y/RhtGMIChQYWdlRG93biknLFxuICAgICAgcHJldmlvdXNZZWFyOiAn0J/QvtC/0LXRgNC10LTQvdGW0Lkg0YDRltC6IChDb250cm9sICsgbGVmdCknLFxuICAgICAgbmV4dFllYXI6ICfQndCw0YHRgtGD0L/QvdC40Lkg0YDRltC6IChDb250cm9sICsgcmlnaHQpJyxcbiAgICAgIHByZXZpb3VzRGVjYWRlOiAn0J/QvtC/0LXRgNC10LTQvdGUINC00LXRgdGP0YLQuNGA0ZbRh9GH0Y8nLFxuICAgICAgbmV4dERlY2FkZTogJ9Cd0LDRgdGC0YPQv9C90LUg0LTQtdGB0Y/RgtC40YDRltGH0YfRjycsXG4gICAgICBwcmV2aW91c0NlbnR1cnk6ICfQn9C+0L/QtdGA0LXQtNC90ZQg0YHRgtC+0LvRltGC0YLRjycsXG4gICAgICBuZXh0Q2VudHVyeTogJ9Cd0LDRgdGC0YPQv9C90LUg0YHRgtC+0LvRltGC0YLRjydcbiAgICB9LFxuICAgIHRpbWVQaWNrZXJMb2NhbGU6IHtcbiAgICAgIHBsYWNlaG9sZGVyOiAn0J7QsdC10YDRltGC0Ywg0YfQsNGBJ1xuICAgIH1cbiAgfSxcbiAgVGFibGU6IHtcbiAgICBmaWx0ZXJUaXRsZTogJ9Ck0ZbQu9GM0YLRgNGD0LLQsNGC0LgnLFxuICAgIGZpbHRlckNvbmZpcm06ICdPSycsXG4gICAgZmlsdGVyUmVzZXQ6ICfQodC60LjQvdGD0YLQuCcsXG4gICAgc2VsZWN0QWxsOiAn0J7QsdGA0LDRgtC4INCy0YHRlicsXG4gICAgc2VsZWN0SW52ZXJ0OiAn0IbQvdCy0LXRgNGC0YPQstCw0YLQuCDQstC40LHRltGAJ1xuICB9LFxuICBNb2RhbDoge1xuICAgIG9rVGV4dDogJ9CT0LDRgNCw0LfQtCcsXG4gICAgY2FuY2VsVGV4dDogJ9Ch0LrQsNGB0YPQstCw0YLQuCcsXG4gICAganVzdE9rVGV4dDogJ9CT0LDRgNCw0LfQtCdcbiAgfSxcbiAgUG9wY29uZmlybToge1xuICAgIG9rVGV4dDogJ9CT0LDRgNCw0LfQtCcsXG4gICAgY2FuY2VsVGV4dDogJ9Ch0LrQsNGB0YPQstCw0YLQuCdcbiAgfSxcbiAgVHJhbnNmZXI6IHtcbiAgICBzZWFyY2hQbGFjZWhvbGRlcjogJ9CS0LLQtdC00ZbRgtGMINGC0LXQutGB0YIg0LTQu9GPINC/0L7RiNGD0LrRgycsXG4gICAgaXRlbVVuaXQ6ICfQtdC70LXQvC4nLFxuICAgIGl0ZW1zVW5pdDogJ9C10LvQtdC8LidcbiAgfSxcbiAgVXBsb2FkOiB7XG4gICAgdXBsb2FkaW5nOiAn0JfQsNCy0LDQvdGC0LDQttC10L3QvdGPIC4uLicsXG4gICAgcmVtb3ZlRmlsZTogJ9CS0LjQtNCw0LvQuNGC0Lgg0YTQsNC50LsnLFxuICAgIHVwbG9hZEVycm9yOiAn0J/QvtC80LjQu9C60LAg0LfQsNCy0LDQvdGC0LDQttC10L3QvdGPJyxcbiAgICBwcmV2aWV3RmlsZTogJ9Cf0L7Qv9C10YDQtdC00L3RltC5INC/0LXRgNC10LPQu9GP0LQg0YTQsNC50LvRgycsXG4gICAgZG93bmxvYWRGaWxlOiAn0JfQsNCy0LDQvdGC0LDQttC40YLQuCDRhNCw0LnQuydcbiAgfSxcbiAgRW1wdHk6IHtcbiAgICBkZXNjcmlwdGlvbjogJ9CU0LDQvdC40YUg0L3QtdC80LDRlCdcbiAgfSxcbiAgSWNvbjoge1xuICAgIGljb246ICfRltC60L7QvdC60LAnXG4gIH0sXG4gIFRleHQ6IHtcbiAgICBlZGl0OiAn0KDQtdC00LDQs9GD0LLQsNGC0LgnLFxuICAgIGNvcHk6ICfQmtC+0L/RltGO0LLQsNGC0LgnLFxuICAgIGNvcGllZDogJ9Ch0LrQvtC/0ZbQudC+0LLQsNC90L4nLFxuICAgIGV4cGFuZDogJ9Cg0L7Qt9Cz0L7RgNC90YPRgtC4J1xuICB9LFxuICBQYWdlSGVhZGVyOiB7XG4gICAgYmFjazogJ9Cd0LDQt9Cw0LQnXG4gIH1cbn07XG4iXX0=

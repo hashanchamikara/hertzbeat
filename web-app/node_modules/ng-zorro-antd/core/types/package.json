@@ -1,0 +1,11 @@
+{
+  "main": "../../bundles/ng-zorro-antd-core-types.umd.js",
+  "module": "../../fesm2015/ng-zorro-antd-core-types.js",
+  "es2015": "../../fesm2015/ng-zorro-antd-core-types.js",
+  "esm2015": "../../esm2015/core/types/ng-zorro-antd-core-types.js",
+  "fesm2015": "../../fesm2015/ng-zorro-antd-core-types.js",
+  "typings": "ng-zorro-antd-core-types.d.ts",
+  "metadata": "ng-zorro-antd-core-types.metadata.json",
+  "sideEffects": false,
+  "name": "ng-zorro-antd/core/types"
+}

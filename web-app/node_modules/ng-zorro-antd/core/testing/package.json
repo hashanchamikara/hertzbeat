@@ -1,0 +1,11 @@
+{
+  "main": "../../bundles/ng-zorro-antd-core-testing.umd.js",
+  "module": "../../fesm2015/ng-zorro-antd-core-testing.js",
+  "es2015": "../../fesm2015/ng-zorro-antd-core-testing.js",
+  "esm2015": "../../esm2015/core/testing/ng-zorro-antd-core-testing.js",
+  "fesm2015": "../../fesm2015/ng-zorro-antd-core-testing.js",
+  "typings": "ng-zorro-antd-core-testing.d.ts",
+  "metadata": "ng-zorro-antd-core-testing.metadata.json",
+  "sideEffects": false,
+  "name": "ng-zorro-antd/core/testing"
+}

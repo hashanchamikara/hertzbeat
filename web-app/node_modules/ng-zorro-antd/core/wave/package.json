@@ -1,0 +1,11 @@
+{
+  "main": "../../bundles/ng-zorro-antd-core-wave.umd.js",
+  "module": "../../fesm2015/ng-zorro-antd-core-wave.js",
+  "es2015": "../../fesm2015/ng-zorro-antd-core-wave.js",
+  "esm2015": "../../esm2015/core/wave/ng-zorro-antd-core-wave.js",
+  "fesm2015": "../../fesm2015/ng-zorro-antd-core-wave.js",
+  "typings": "ng-zorro-antd-core-wave.d.ts",
+  "metadata": "ng-zorro-antd-core-wave.metadata.json",
+  "sideEffects": false,
+  "name": "ng-zorro-antd/core/wave"
+}

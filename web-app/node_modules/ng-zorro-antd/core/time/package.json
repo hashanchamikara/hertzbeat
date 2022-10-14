@@ -1,0 +1,11 @@
+{
+  "main": "../../bundles/ng-zorro-antd-core-time.umd.js",
+  "module": "../../fesm2015/ng-zorro-antd-core-time.js",
+  "es2015": "../../fesm2015/ng-zorro-antd-core-time.js",
+  "esm2015": "../../esm2015/core/time/ng-zorro-antd-core-time.js",
+  "fesm2015": "../../fesm2015/ng-zorro-antd-core-time.js",
+  "typings": "ng-zorro-antd-core-time.d.ts",
+  "metadata": "ng-zorro-antd-core-time.metadata.json",
+  "sideEffects": false,
+  "name": "ng-zorro-antd/core/time"
+}

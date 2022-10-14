@@ -1,0 +1,11 @@
+{
+  "main": "../../bundles/ng-zorro-antd-core-animation.umd.js",
+  "module": "../../fesm2015/ng-zorro-antd-core-animation.js",
+  "es2015": "../../fesm2015/ng-zorro-antd-core-animation.js",
+  "esm2015": "../../esm2015/core/animation/ng-zorro-antd-core-animation.js",
+  "fesm2015": "../../fesm2015/ng-zorro-antd-core-animation.js",
+  "typings": "ng-zorro-antd-core-animation.d.ts",
+  "metadata": "ng-zorro-antd-core-animation.metadata.json",
+  "sideEffects": false,
+  "name": "ng-zorro-antd/core/animation"
+}

@@ -1,0 +1,11 @@
+{
+  "main": "../../bundles/ng-zorro-antd-core-no-animation.umd.js",
+  "module": "../../fesm2015/ng-zorro-antd-core-no-animation.js",
+  "es2015": "../../fesm2015/ng-zorro-antd-core-no-animation.js",
+  "esm2015": "../../esm2015/core/no-animation/ng-zorro-antd-core-no-animation.js",
+  "fesm2015": "../../fesm2015/ng-zorro-antd-core-no-animation.js",
+  "typings": "ng-zorro-antd-core-no-animation.d.ts",
+  "metadata": "ng-zorro-antd-core-no-animation.metadata.json",
+  "sideEffects": false,
+  "name": "ng-zorro-antd/core/no-animation"
+}

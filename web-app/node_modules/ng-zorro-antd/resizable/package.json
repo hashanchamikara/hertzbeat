@@ -1,0 +1,11 @@
+{
+  "main": "../bundles/ng-zorro-antd-resizable.umd.js",
+  "module": "../fesm2015/ng-zorro-antd-resizable.js",
+  "es2015": "../fesm2015/ng-zorro-antd-resizable.js",
+  "esm2015": "../esm2015/resizable/ng-zorro-antd-resizable.js",
+  "fesm2015": "../fesm2015/ng-zorro-antd-resizable.js",
+  "typings": "ng-zorro-antd-resizable.d.ts",
+  "metadata": "ng-zorro-antd-resizable.metadata.json",
+  "sideEffects": false,
+  "name": "ng-zorro-antd/resizable"
+}

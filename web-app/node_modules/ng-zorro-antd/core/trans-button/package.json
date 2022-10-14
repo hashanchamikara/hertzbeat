@@ -1,0 +1,11 @@
+{
+  "main": "../../bundles/ng-zorro-antd-core-trans-button.umd.js",
+  "module": "../../fesm2015/ng-zorro-antd-core-trans-button.js",
+  "es2015": "../../fesm2015/ng-zorro-antd-core-trans-button.js",
+  "esm2015": "../../esm2015/core/trans-button/ng-zorro-antd-core-trans-button.js",
+  "fesm2015": "../../fesm2015/ng-zorro-antd-core-trans-button.js",
+  "typings": "ng-zorro-antd-core-trans-button.d.ts",
+  "metadata": "ng-zorro-antd-core-trans-button.metadata.json",
+  "sideEffects": false,
+  "name": "ng-zorro-antd/core/trans-button"
+}

@@ -1,0 +1,11 @@
+{
+  "main": "../../bundles/ng-zorro-antd-core-highlight.umd.js",
+  "module": "../../fesm2015/ng-zorro-antd-core-highlight.js",
+  "es2015": "../../fesm2015/ng-zorro-antd-core-highlight.js",
+  "esm2015": "../../esm2015/core/highlight/ng-zorro-antd-core-highlight.js",
+  "fesm2015": "../../fesm2015/ng-zorro-antd-core-highlight.js",
+  "typings": "ng-zorro-antd-core-highlight.d.ts",
+  "metadata": "ng-zorro-antd-core-highlight.metadata.json",
+  "sideEffects": false,
+  "name": "ng-zorro-antd/core/highlight"
+}

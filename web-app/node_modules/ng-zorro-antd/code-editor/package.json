@@ -1,0 +1,14 @@
+{
+  "peerDependencies": {
+    "monaco-editor": "^0.14.0"
+  },
+  "main": "../bundles/ng-zorro-antd-code-editor.umd.js",
+  "module": "../fesm2015/ng-zorro-antd-code-editor.js",
+  "es2015": "../fesm2015/ng-zorro-antd-code-editor.js",
+  "esm2015": "../esm2015/code-editor/ng-zorro-antd-code-editor.js",
+  "fesm2015": "../fesm2015/ng-zorro-antd-code-editor.js",
+  "typings": "ng-zorro-antd-code-editor.d.ts",
+  "metadata": "ng-zorro-antd-code-editor.metadata.json",
+  "sideEffects": false,
+  "name": "ng-zorro-antd/code-editor"
+}

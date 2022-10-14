@@ -1,0 +1,11 @@
+{
+  "main": "../../bundles/ng-zorro-antd-core-logger.umd.js",
+  "module": "../../fesm2015/ng-zorro-antd-core-logger.js",
+  "es2015": "../../fesm2015/ng-zorro-antd-core-logger.js",
+  "esm2015": "../../esm2015/core/logger/ng-zorro-antd-core-logger.js",
+  "fesm2015": "../../fesm2015/ng-zorro-antd-core-logger.js",
+  "typings": "ng-zorro-antd-core-logger.d.ts",
+  "metadata": "ng-zorro-antd-core-logger.metadata.json",
+  "sideEffects": false,
+  "name": "ng-zorro-antd/core/logger"
+}

@@ -1,0 +1,11 @@
+{
+  "main": "../bundles/ng-zorro-antd-result.umd.js",
+  "module": "../fesm2015/ng-zorro-antd-result.js",
+  "es2015": "../fesm2015/ng-zorro-antd-result.js",
+  "esm2015": "../esm2015/result/ng-zorro-antd-result.js",
+  "fesm2015": "../fesm2015/ng-zorro-antd-result.js",
+  "typings": "ng-zorro-antd-result.d.ts",
+  "metadata": "ng-zorro-antd-result.metadata.json",
+  "sideEffects": false,
+  "name": "ng-zorro-antd/result"
+}

@@ -1,0 +1,15 @@
+{
+  "peerDependencies": {
+    "dagre-compound": "0.0.4",
+    "d3": "^6.2.0"
+  },
+  "main": "../bundles/ng-zorro-antd-graph.umd.js",
+  "module": "../fesm2015/ng-zorro-antd-graph.js",
+  "es2015": "../fesm2015/ng-zorro-antd-graph.js",
+  "esm2015": "../esm2015/graph/ng-zorro-antd-graph.js",
+  "fesm2015": "../fesm2015/ng-zorro-antd-graph.js",
+  "typings": "ng-zorro-antd-graph.d.ts",
+  "metadata": "ng-zorro-antd-graph.metadata.json",
+  "sideEffects": false,
+  "name": "ng-zorro-antd/graph"
+}

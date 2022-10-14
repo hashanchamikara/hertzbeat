@@ -1,0 +1,11 @@
+{
+  "main": "../bundles/ng-zorro-antd-version.umd.js",
+  "module": "../fesm2015/ng-zorro-antd-version.js",
+  "es2015": "../fesm2015/ng-zorro-antd-version.js",
+  "esm2015": "../esm2015/version/ng-zorro-antd-version.js",
+  "fesm2015": "../fesm2015/ng-zorro-antd-version.js",
+  "typings": "ng-zorro-antd-version.d.ts",
+  "metadata": "ng-zorro-antd-version.metadata.json",
+  "sideEffects": false,
+  "name": "ng-zorro-antd/version"
+}

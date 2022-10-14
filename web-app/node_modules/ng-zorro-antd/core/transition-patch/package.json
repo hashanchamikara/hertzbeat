@@ -1,0 +1,11 @@
+{
+  "main": "../../bundles/ng-zorro-antd-core-transition-patch.umd.js",
+  "module": "../../fesm2015/ng-zorro-antd-core-transition-patch.js",
+  "es2015": "../../fesm2015/ng-zorro-antd-core-transition-patch.js",
+  "esm2015": "../../esm2015/core/transition-patch/ng-zorro-antd-core-transition-patch.js",
+  "fesm2015": "../../fesm2015/ng-zorro-antd-core-transition-patch.js",
+  "typings": "ng-zorro-antd-core-transition-patch.d.ts",
+  "metadata": "ng-zorro-antd-core-transition-patch.metadata.json",
+  "sideEffects": false,
+  "name": "ng-zorro-antd/core/transition-patch"
+}

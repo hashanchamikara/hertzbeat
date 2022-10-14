@@ -1,0 +1,11 @@
+{
+  "main": "../../bundles/ng-zorro-antd-core-element-patch.umd.js",
+  "module": "../../fesm2015/ng-zorro-antd-core-element-patch.js",
+  "es2015": "../../fesm2015/ng-zorro-antd-core-element-patch.js",
+  "esm2015": "../../esm2015/core/element-patch/ng-zorro-antd-core-element-patch.js",
+  "fesm2015": "../../fesm2015/ng-zorro-antd-core-element-patch.js",
+  "typings": "ng-zorro-antd-core-element-patch.d.ts",
+  "metadata": "ng-zorro-antd-core-element-patch.metadata.json",
+  "sideEffects": false,
+  "name": "ng-zorro-antd/core/element-patch"
+}

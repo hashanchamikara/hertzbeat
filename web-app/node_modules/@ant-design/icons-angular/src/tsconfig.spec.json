@@ -1,0 +1,26 @@
+{
+  "extends": "../tsconfig.json",
+  "compilerOptions": {
+    "outDir": "../out-tsc/spec",
+    "baseUrl": "./",
+    "esModuleInterop": true,
+    "target": "es5",
+    "types": [
+      "jasmine",
+      "node"
+    ],
+    "paths": {
+      "@ant-design/icons-angular": [
+        "./public_api.ts"
+      ]
+    }
+  },
+  "files": [
+    "test.ts",
+    "polyfills.ts"
+  ],
+  "include": [
+    "**/*.spec.ts",
+    "**/*.d.ts"
+  ]
+}

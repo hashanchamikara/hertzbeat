@@ -1,0 +1,11 @@
+{
+  "main": "../../bundles/ng-zorro-antd-core-color.umd.js",
+  "module": "../../fesm2015/ng-zorro-antd-core-color.js",
+  "es2015": "../../fesm2015/ng-zorro-antd-core-color.js",
+  "esm2015": "../../esm2015/core/color/ng-zorro-antd-core-color.js",
+  "fesm2015": "../../fesm2015/ng-zorro-antd-core-color.js",
+  "typings": "ng-zorro-antd-core-color.d.ts",
+  "metadata": "ng-zorro-antd-core-color.metadata.json",
+  "sideEffects": false,
+  "name": "ng-zorro-antd/core/color"
+}

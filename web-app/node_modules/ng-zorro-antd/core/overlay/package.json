@@ -1,0 +1,11 @@
+{
+  "main": "../../bundles/ng-zorro-antd-core-overlay.umd.js",
+  "module": "../../fesm2015/ng-zorro-antd-core-overlay.js",
+  "es2015": "../../fesm2015/ng-zorro-antd-core-overlay.js",
+  "esm2015": "../../esm2015/core/overlay/ng-zorro-antd-core-overlay.js",
+  "fesm2015": "../../fesm2015/ng-zorro-antd-core-overlay.js",
+  "typings": "ng-zorro-antd-core-overlay.d.ts",
+  "metadata": "ng-zorro-antd-core-overlay.metadata.json",
+  "sideEffects": false,
+  "name": "ng-zorro-antd/core/overlay"
+}

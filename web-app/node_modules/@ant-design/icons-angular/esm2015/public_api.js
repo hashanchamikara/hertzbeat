@@ -1,0 +1,8 @@
+export * from './component/icon.module';
+export * from './component/icon.service';
+export * from './component/icon.directive';
+export * from './component/icon.error';
+export * from './types';
+export * from './utils';
+export * from './manifest';
+//# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJmaWxlIjoicHVibGljX2FwaS5qcyIsInNvdXJjZVJvb3QiOiIiLCJzb3VyY2VzIjpbIi4uLy4uLy4uL3NyYy9wdWJsaWNfYXBpLnRzIl0sIm5hbWVzIjpbXSwibWFwcGluZ3MiOiJBQUFBLGNBQWMseUJBQXlCLENBQUM7QUFDeEMsY0FBYywwQkFBMEIsQ0FBQztBQUN6QyxjQUFjLDRCQUE0QixDQUFDO0FBQzNDLGNBQWMsd0JBQXdCLENBQUM7QUFDdkMsY0FBYyxTQUFTLENBQUM7QUFDeEIsY0FBYyxTQUFTLENBQUM7QUFDeEIsY0FBYyxZQUFZLENBQUMiLCJzb3VyY2VzQ29udGVudCI6WyJleHBvcnQgKiBmcm9tICcuL2NvbXBvbmVudC9pY29uLm1vZHVsZSc7XG5leHBvcnQgKiBmcm9tICcuL2NvbXBvbmVudC9pY29uLnNlcnZpY2UnO1xuZXhwb3J0ICogZnJvbSAnLi9jb21wb25lbnQvaWNvbi5kaXJlY3RpdmUnO1xuZXhwb3J0ICogZnJvbSAnLi9jb21wb25lbnQvaWNvbi5lcnJvcic7XG5leHBvcnQgKiBmcm9tICcuL3R5cGVzJztcbmV4cG9ydCAqIGZyb20gJy4vdXRpbHMnO1xuZXhwb3J0ICogZnJvbSAnLi9tYW5pZmVzdCc7XG4iXX0=

@@ -1,0 +1,11 @@
+{
+  "main": "../bundles/ng-zorro-antd-layout.umd.js",
+  "module": "../fesm2015/ng-zorro-antd-layout.js",
+  "es2015": "../fesm2015/ng-zorro-antd-layout.js",
+  "esm2015": "../esm2015/layout/ng-zorro-antd-layout.js",
+  "fesm2015": "../fesm2015/ng-zorro-antd-layout.js",
+  "typings": "ng-zorro-antd-layout.d.ts",
+  "metadata": "ng-zorro-antd-layout.metadata.json",
+  "sideEffects": false,
+  "name": "ng-zorro-antd/layout"
+}

@@ -1,0 +1,11 @@
+{
+  "main": "../../bundles/ng-zorro-antd-core-polyfill.umd.js",
+  "module": "../../fesm2015/ng-zorro-antd-core-polyfill.js",
+  "es2015": "../../fesm2015/ng-zorro-antd-core-polyfill.js",
+  "esm2015": "../../esm2015/core/polyfill/ng-zorro-antd-core-polyfill.js",
+  "fesm2015": "../../fesm2015/ng-zorro-antd-core-polyfill.js",
+  "typings": "ng-zorro-antd-core-polyfill.d.ts",
+  "metadata": "ng-zorro-antd-core-polyfill.metadata.json",
+  "sideEffects": false,
+  "name": "ng-zorro-antd/core/polyfill"
+}

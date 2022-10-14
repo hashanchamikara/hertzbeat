@@ -1,0 +1,11 @@
+{
+  "main": "../bundles/ng-zorro-antd-image.umd.js",
+  "module": "../fesm2015/ng-zorro-antd-image.js",
+  "es2015": "../fesm2015/ng-zorro-antd-image.js",
+  "esm2015": "../esm2015/image/ng-zorro-antd-image.js",
+  "fesm2015": "../fesm2015/ng-zorro-antd-image.js",
+  "typings": "ng-zorro-antd-image.d.ts",
+  "metadata": "ng-zorro-antd-image.metadata.json",
+  "sideEffects": false,
+  "name": "ng-zorro-antd/image"
+}

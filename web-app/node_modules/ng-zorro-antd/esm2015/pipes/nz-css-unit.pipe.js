@@ -1,0 +1,24 @@
+/**
+ * Use of this source code is governed by an MIT-style license that can be
+ * found in the LICENSE file at https://github.com/NG-ZORRO/ng-zorro-antd/blob/master/LICENSE
+ */
+import { Pipe } from '@angular/core';
+export class NzToCssUnitPipe {
+    transform(value, defaultUnit = 'px') {
+        const absoluteLengthUnit = ['cm', 'mm', 'Q', 'in', 'pc', 'pt', 'px'];
+        const relativeLengthUnit = ['em', 'ex', 'ch', 'rem', '1h', 'vw', 'vh', 'vmin', 'vmax'];
+        const percentagesUnit = ['%'];
+        const listOfUnit = [...absoluteLengthUnit, ...relativeLengthUnit, ...percentagesUnit];
+        let unit = 'px';
+        if (listOfUnit.some(u => u === defaultUnit)) {
+            unit = defaultUnit;
+        }
+        return typeof value === 'number' ? `${value}${unit}` : `${value}`;
+    }
+}
+NzToCssUnitPipe.decorators = [
+    { type: Pipe, args: [{
+                name: 'nzToCssUnit'
+            },] }
+];
+//# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJmaWxlIjoibnotY3NzLXVuaXQucGlwZS5qcyIsInNvdXJjZVJvb3QiOiIiLCJzb3VyY2VzIjpbIi4uLy4uLy4uL2NvbXBvbmVudHMvcGlwZXMvbnotY3NzLXVuaXQucGlwZS50cyJdLCJuYW1lcyI6W10sIm1hcHBpbmdzIjoiQUFBQTs7O0dBR0c7QUFFSCxPQUFPLEVBQUUsSUFBSSxFQUFpQixNQUFNLGVBQWUsQ0FBQztBQUtwRCxNQUFNLE9BQU8sZUFBZTtJQUMxQixTQUFTLENBQUMsS0FBc0IsRUFBRSxjQUFzQixJQUFJO1FBQzFELE1BQU0sa0JBQWtCLEdBQUcsQ0FBQyxJQUFJLEVBQUUsSUFBSSxFQUFFLEdBQUcsRUFBRSxJQUFJLEVBQUUsSUFBSSxFQUFFLElBQUksRUFBRSxJQUFJLENBQUMsQ0FBQztRQUNyRSxNQUFNLGtCQUFrQixHQUFHLENBQUMsSUFBSSxFQUFFLElBQUksRUFBRSxJQUFJLEVBQUUsS0FBSyxFQUFFLElBQUksRUFBRSxJQUFJLEVBQUUsSUFBSSxFQUFFLE1BQU0sRUFBRSxNQUFNLENBQUMsQ0FBQztRQUN2RixNQUFNLGVBQWUsR0FBRyxDQUFDLEdBQUcsQ0FBQyxDQUFDO1FBQzlCLE1BQU0sVUFBVSxHQUFHLENBQUMsR0FBRyxrQkFBa0IsRUFBRSxHQUFHLGtCQUFrQixFQUFFLEdBQUcsZUFBZSxDQUFDLENBQUM7UUFDdEYsSUFBSSxJQUFJLEdBQUcsSUFBSSxDQUFDO1FBQ2hCLElBQUksVUFBVSxDQUFDLElBQUksQ0FBQyxDQUFDLENBQUMsRUFBRSxDQUFDLENBQUMsS0FBSyxXQUFXLENBQUMsRUFBRTtZQUMzQyxJQUFJLEdBQUcsV0FBVyxDQUFDO1NBQ3BCO1FBQ0QsT0FBTyxPQUFPLEtBQUssS0FBSyxRQUFRLENBQUMsQ0FBQyxDQUFDLEdBQUcsS0FBSyxHQUFHLElBQUksRUFBRSxDQUFDLENBQUMsQ0FBQyxHQUFHLEtBQUssRUFBRSxDQUFDO0lBQ3BFLENBQUM7OztZQWRGLElBQUksU0FBQztnQkFDSixJQUFJLEVBQUUsYUFBYTthQUNwQiIsInNvdXJjZXNDb250ZW50IjpbIi8qKlxuICogVXNlIG9mIHRoaXMgc291cmNlIGNvZGUgaXMgZ292ZXJuZWQgYnkgYW4gTUlULXN0eWxlIGxpY2Vuc2UgdGhhdCBjYW4gYmVcbiAqIGZvdW5kIGluIHRoZSBMSUNFTlNFIGZpbGUgYXQgaHR0cHM6Ly9naXRodWIuY29tL05HLVpPUlJPL25nLXpvcnJvLWFudGQvYmxvYi9tYXN0ZXIvTElDRU5TRVxuICovXG5cbmltcG9ydCB7IFBpcGUsIFBpcGVUcmFuc2Zvcm0gfSBmcm9tICdAYW5ndWxhci9jb3JlJztcblxuQFBpcGUoe1xuICBuYW1lOiAnbnpUb0Nzc1VuaXQnXG59KVxuZXhwb3J0IGNsYXNzIE56VG9Dc3NVbml0UGlwZSBpbXBsZW1lbnRzIFBpcGVUcmFuc2Zvcm0ge1xuICB0cmFuc2Zvcm0odmFsdWU6IG51bWJlciB8IHN0cmluZywgZGVmYXVsdFVuaXQ6IHN0cmluZyA9ICdweCcpOiBzdHJpbmcge1xuICAgIGNvbnN0IGFic29sdXRlTGVuZ3RoVW5pdCA9IFsnY20nLCAnbW0nLCAnUScsICdpbicsICdwYycsICdwdCcsICdweCddO1xuICAgIGNvbnN0IHJlbGF0aXZlTGVuZ3RoVW5pdCA9IFsnZW0nLCAnZXgnLCAnY2gnLCAncmVtJywgJzFoJywgJ3Z3JywgJ3ZoJywgJ3ZtaW4nLCAndm1heCddO1xuICAgIGNvbnN0IHBlcmNlbnRhZ2VzVW5pdCA9IFsnJSddO1xuICAgIGNvbnN0IGxpc3RPZlVuaXQgPSBbLi4uYWJzb2x1dGVMZW5ndGhVbml0LCAuLi5yZWxhdGl2ZUxlbmd0aFVuaXQsIC4uLnBlcmNlbnRhZ2VzVW5pdF07XG4gICAgbGV0IHVuaXQgPSAncHgnO1xuICAgIGlmIChsaXN0T2ZVbml0LnNvbWUodSA9PiB1ID09PSBkZWZhdWx0VW5pdCkpIHtcbiAgICAgIHVuaXQgPSBkZWZhdWx0VW5pdDtcbiAgICB9XG4gICAgcmV0dXJuIHR5cGVvZiB2YWx1ZSA9PT0gJ251bWJlcicgPyBgJHt2YWx1ZX0ke3VuaXR9YCA6IGAke3ZhbHVlfWA7XG4gIH1cbn1cbiJdfQ==

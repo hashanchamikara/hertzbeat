@@ -1,0 +1,6 @@
+export const CaretRightFill = {
+    name: 'caret-right',
+    theme: 'fill',
+    icon: '<svg viewBox="0 0 1024 1024" focusable="false"><path d="M715.8 493.5L335 165.1c-14.2-12.2-35-1.2-35 18.5v656.8c0 19.7 20.8 30.7 35 18.5l380.8-328.4c10.9-9.4 10.9-27.6 0-37z" /></svg>'
+};
+//# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJmaWxlIjoiQ2FyZXRSaWdodEZpbGwuanMiLCJzb3VyY2VSb290IjoiIiwic291cmNlcyI6WyIuLi8uLi8uLi8uLi8uLi9zcmMvaWNvbnMvZmlsbC9DYXJldFJpZ2h0RmlsbC50cyJdLCJuYW1lcyI6W10sIm1hcHBpbmdzIjoiQUFFQSxNQUFNLENBQUMsTUFBTSxjQUFjLEdBQW1CO0lBQzFDLElBQUksRUFBRSxhQUFhO0lBQ25CLEtBQUssRUFBRSxNQUFNO0lBQ2IsSUFBSSxFQUFFLHdMQUF3TDtDQUNqTSxDQUFBIiwic291cmNlc0NvbnRlbnQiOlsiaW1wb3J0IHsgSWNvbkRlZmluaXRpb24gfSBmcm9tICdAYW50LWRlc2lnbi9pY29ucy1hbmd1bGFyJztcblxuZXhwb3J0IGNvbnN0IENhcmV0UmlnaHRGaWxsOiBJY29uRGVmaW5pdGlvbiA9IHtcbiAgICBuYW1lOiAnY2FyZXQtcmlnaHQnLFxuICAgIHRoZW1lOiAnZmlsbCcsXG4gICAgaWNvbjogJzxzdmcgdmlld0JveD1cIjAgMCAxMDI0IDEwMjRcIiBmb2N1c2FibGU9XCJmYWxzZVwiPjxwYXRoIGQ9XCJNNzE1LjggNDkzLjVMMzM1IDE2NS4xYy0xNC4yLTEyLjItMzUtMS4yLTM1IDE4LjV2NjU2LjhjMCAxOS43IDIwLjggMzAuNyAzNSAxOC41bDM4MC44LTMyOC40YzEwLjktOS40IDEwLjktMjcuNiAwLTM3elwiIC8+PC9zdmc+J1xufSJdfQ==

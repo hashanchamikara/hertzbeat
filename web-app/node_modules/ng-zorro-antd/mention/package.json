@@ -1,0 +1,11 @@
+{
+  "main": "../bundles/ng-zorro-antd-mention.umd.js",
+  "module": "../fesm2015/ng-zorro-antd-mention.js",
+  "es2015": "../fesm2015/ng-zorro-antd-mention.js",
+  "esm2015": "../esm2015/mention/ng-zorro-antd-mention.js",
+  "fesm2015": "../fesm2015/ng-zorro-antd-mention.js",
+  "typings": "ng-zorro-antd-mention.d.ts",
+  "metadata": "ng-zorro-antd-mention.metadata.json",
+  "sideEffects": false,
+  "name": "ng-zorro-antd/mention"
+}

@@ -1,0 +1,11 @@
+{
+  "main": "../bundles/ng-zorro-antd-space.umd.js",
+  "module": "../fesm2015/ng-zorro-antd-space.js",
+  "es2015": "../fesm2015/ng-zorro-antd-space.js",
+  "esm2015": "../esm2015/space/ng-zorro-antd-space.js",
+  "fesm2015": "../fesm2015/ng-zorro-antd-space.js",
+  "typings": "ng-zorro-antd-space.d.ts",
+  "metadata": "ng-zorro-antd-space.metadata.json",
+  "sideEffects": false,
+  "name": "ng-zorro-antd/space"
+}

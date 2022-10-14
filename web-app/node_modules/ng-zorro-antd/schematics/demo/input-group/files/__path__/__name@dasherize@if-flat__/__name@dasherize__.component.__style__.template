@@ -1,0 +1,11 @@
+
+      .ant-input.demo-input-right {
+        width: 100px;
+        text-align: center;
+        border-left-width: 0px;
+      }
+
+      .ant-input.ant-input-rtl.demo-input-right {
+        border-right-width: 0px;
+      }
+    
