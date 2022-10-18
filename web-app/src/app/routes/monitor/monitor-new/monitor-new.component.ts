@@ -26,6 +26,7 @@ export class MonitorNewComponent implements OnInit {
   advancedParams!: Param[];
   monitor!: Monitor;
   detected: boolean = true;
+  scheduleRun!: boolean;
   passwordVisible: boolean = false;
   // 是否显示加载中
   isSpinning: boolean = false;
@@ -66,6 +67,7 @@ export class MonitorNewComponent implements OnInit {
           this.advancedParams = [];
           this.paramDefines = [];
           this.advancedParamDefines = [];
+          this.scheduleRun = message.scheduleRun;
           message.data.forEach(define => {
             let param = new Param();
             param.field = define.field;

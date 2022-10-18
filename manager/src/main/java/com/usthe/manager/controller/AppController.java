@@ -58,7 +58,8 @@ public class AppController {
     public ResponseEntity<Message<List<ParamDefine>>> queryAppParamDefines(
             @ApiParam(value = "en: Monitoring type name,zh: 监控类型名称", example = "api") @PathVariable("app") final String app) {
         List<ParamDefine> paramDefines = appService.getAppParamDefines(app.toLowerCase());
-        return ResponseEntity.ok(new Message<>(paramDefines));
+        Job define = appService.getAppDefine(app.toLowerCase());
+        return ResponseEntity.ok(new Message<>(paramDefines, define.isScheduleRun()));
     }
 
     @GetMapping(path = "/{app}/define")

@@ -69,6 +69,10 @@ public class Job {
      */
     private String category;
     /**
+     * scheduler run by default true this should be false when not use periodically run
+     */
+    private boolean scheduleRun = true;
+    /**
      * Type of monitoring eg: linux | mysql | jvm
      * 监控的类型 eg: linux | mysql | jvm
      */

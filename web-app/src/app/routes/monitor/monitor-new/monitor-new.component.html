@@ -321,58 +321,60 @@
 
       <nz-divider></nz-divider>
 
-      <nz-form-item>
-        <nz-form-label nzSpan="7" nzFor="intervals" [nzTooltipTitle]="'monitor.intervals.tip' | i18n">
-          {{ 'monitor.intervals' | i18n }}
-        </nz-form-label>
-        <nz-form-control nzSpan="8">
-          <nz-input-number [(ngModel)]="monitor.intervals" [nzMin]="10" [nzMax]="604800" [nzStep]="60" name="intervals" id="intervals">
-          </nz-input-number>
-        </nz-form-control>
-      </nz-form-item>
+      <div *ngIf="scheduleRun">
+        <nz-form-item>
+          <nz-form-label nzSpan="7" nzFor="intervals" [nzTooltipTitle]="'monitor.intervals.tip' | i18n">
+            {{ 'monitor.intervals' | i18n }}
+          </nz-form-label>
+          <nz-form-control nzSpan="8">
+            <nz-input-number [(ngModel)]="monitor.intervals" [nzMin]="10" [nzMax]="604800" [nzStep]="60" name="intervals" id="intervals">
+            </nz-input-number>
+          </nz-form-control>
+        </nz-form-item>
 
-      <nz-form-item>
-        <nz-form-label nzSpan="7" nzFor="detect" [nzTooltipTitle]="'monitors.detect.tip' | i18n">
-          {{ 'monitors.detect' | i18n }}
-        </nz-form-label>
-        <nz-form-control nzSpan="8">
-          <nz-switch [(ngModel)]="detected" name="detect" id="detect"></nz-switch>
-        </nz-form-control>
-      </nz-form-item>
+        <nz-form-item>
+          <nz-form-label nzSpan="7" nzFor="detect" [nzTooltipTitle]="'monitors.detect.tip' | i18n">
+            {{ 'monitors.detect' | i18n }}
+          </nz-form-label>
+          <nz-form-control nzSpan="8">
+            <nz-switch [(ngModel)]="detected" name="detect" id="detect"></nz-switch>
+          </nz-form-control>
+        </nz-form-item>
 
-      <nz-form-item>
-        <nz-form-label nzSpan="7" nzFor="tags" [nzTooltipTitle]="'tag.bind.tip' | i18n">
-          {{ 'tag.bind' | i18n }}
-        </nz-form-label>
-        <nz-form-control nzSpan="8">
-          <nz-tag
-            *ngFor="let tag of monitor.tags; let i = index"
-            [nzMode]="tag.type === 1 ? 'closeable' : 'default'"
-            (nzOnClose)="onRemoveTag(tag)"
-            [nzColor]="tag.color"
-            style="margin-top: 4px"
-          >
-            {{ sliceTagName(tag) }}
-          </nz-tag>
-          <a (click)="onShowTagsModal()">
-            <nz-tag style="margin-top: 4px">
-              <i nz-icon nzType="plus"></i>
-              {{ 'tag.new' | i18n }}
+        <nz-form-item>
+          <nz-form-label nzSpan="7" nzFor="tags" [nzTooltipTitle]="'tag.bind.tip' | i18n">
+            {{ 'tag.bind' | i18n }}
+          </nz-form-label>
+          <nz-form-control nzSpan="8">
+            <nz-tag
+              *ngFor="let tag of monitor.tags; let i = index"
+              [nzMode]="tag.type === 1 ? 'closeable' : 'default'"
+              (nzOnClose)="onRemoveTag(tag)"
+              [nzColor]="tag.color"
+              style="margin-top: 4px"
+            >
+              {{ sliceTagName(tag) }}
             </nz-tag>
-          </a>
-        </nz-form-control>
-      </nz-form-item>
+            <a (click)="onShowTagsModal()">
+              <nz-tag style="margin-top: 4px">
+                <i nz-icon nzType="plus"></i>
+                {{ 'tag.new' | i18n }}
+              </nz-tag>
+            </a>
+          </nz-form-control>
+        </nz-form-item>
 
-      <nz-form-item>
-        <nz-form-label [nzSpan]="7" nzFor="description" [nzTooltipTitle]="'monitor.description.tip' | i18n">
-          {{ 'monitor.description' | i18n }}
-        </nz-form-label>
-        <nz-form-control [nzSpan]="8">
-          <nz-textarea-count [nzMaxCharacterCount]="100">
-            <textarea [(ngModel)]="monitor.description" rows="3" nz-input name="description" id="description"></textarea>
-          </nz-textarea-count>
-        </nz-form-control>
-      </nz-form-item>
+        <nz-form-item>
+          <nz-form-label [nzSpan]="7" nzFor="description" [nzTooltipTitle]="'monitor.description.tip' | i18n">
+            {{ 'monitor.description' | i18n }}
+          </nz-form-label>
+          <nz-form-control [nzSpan]="8">
+            <nz-textarea-count [nzMaxCharacterCount]="100">
+              <textarea [(ngModel)]="monitor.description" rows="3" nz-input name="description" id="description"></textarea>
+            </nz-textarea-count>
+          </nz-form-control>
+        </nz-form-item>
+      </div>
 
       <div nz-row>
         <div nz-col nzSpan="8" nzOffset="9">

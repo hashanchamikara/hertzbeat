@@ -44,6 +44,7 @@ import static com.usthe.common.util.CommonConstants.SUCCESS_CODE;
 @ApiModel(description = "公共消息包装")
 public class Message<T> {
 
+
     /**
      * message body data
      */
@@ -62,6 +63,12 @@ public class Message<T> {
     @ApiModelProperty(value = "携带编码", position = 2)
     private byte code = SUCCESS_CODE;
 
+    /**
+     * schedule run enable
+     */
+    @ApiModelProperty(value = "Schedule Run", position = 3)
+    private boolean scheduleRun;
+
     public Message(String msg) {
         this.msg = msg;
     }
@@ -73,5 +80,10 @@ public class Message<T> {
 
     public Message(T data) {
         this.data = data;
+    }
+
+    public Message(T data, boolean scheduleRun) {
+        this.data = data;
+        this.scheduleRun = scheduleRun;
     }
 }

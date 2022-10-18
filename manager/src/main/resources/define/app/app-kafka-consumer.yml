@@ -1,0 +1,21 @@
+category: mid
+scheduleRun: false
+app: kafka-consumer
+name:
+  zh-CN: Kafka Consumer
+  en-US: Kafka Consumer
+# 参数映射map. type是参数类型: 0-number数字, 1-string明文字符串, 2-secret加密字符串
+# 强制固定必须参数 - host
+configmap:
+  - key: host
+    type: 1
+  - key: port
+    type: 0
+  - key: username
+    type: 1
+  - key: password
+    type: 2
+  - key: topics
+    type: 1
+  - key: groupId
+    type: 1
